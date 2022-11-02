@@ -1,0 +1,11 @@
+package NeuroPi
+
+brief = "Neuroevolution with Dependent Types. Discover Architectures. Learn Parameters."
+
+depends = contrib
+
+modules = DAMG.Core,
+          DAMG.NN,
+          NeuroPi.SubModule,
+          NeuroPi.Module,
+          NeuroPi.Cortex
